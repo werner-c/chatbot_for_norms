@@ -1,0 +1,86 @@
+[
+  {
+    "Question": "What is optical power budget? ",
+    "Anwser": "An optical power budget is a performance budget, which guarantees the system performance to be better than the minimum required BER performance objective derived from Recommendations ITU-T G.826 and ITU-T G.828. ",
+    "Location": "T-HDB-OUT.10-2009-1-PDF-E.pdf PDF Seite 181 , Kapitel: 1 \u201cWorst case\u201d design for systems without line amplifiers ",
+    "rag_answer": "The optical power budget is a performance budget that guarantees the system performance to be better than the minimum required BER performance objective, derived from Recommendations ITU-T G.826 and ITU-T G.828. It allocates penalties/impairments for all types of degradation and is estimated using a combination of theoretical analysis, computer simulations, and direct measurements on experimental test-beds (Context 2)."
+  },
+  {
+    "Question": "What is Probability threshold?",
+    "Anwser": "Probability threshold for system acceptance (Pth) is defined as maximum affordable significance level of each system parameter. The probability threshold will depend on network operation scenario, and also the trade-off relationship between probability of exceeding the value and cost.",
+    "Location": "T-HDB-OUT.10-2009-1-PDF-E.pdf PDF Seite 212, Kapitel: A.3 Probability threshold for system acceptance     ",
+    "rag_answer": "Context 0 provides information about the probability threshold for system acceptance, defining it as the maximum affordable significance level of each system parameter. It mentions that the probability threshold will depend on the network operation scenario and the trade-off relationship between the probability of exceeding the value and cost. It also gives examples of probability thresholds for various system parameters."
+  },
+  {
+    "Question": "Why is it preffered to place cables in conduits?",
+    "Anwser": "Placing cables in conduits is preferred because it has a principle advantage that the cable placement operation is separated in time from the actual conduit construction phase. Moreover, the protection of the cable with the passage of time and the possibility of repeated access, cable removal and delayed cable installation make the method of placing cables in ducts more attractive. The method, however, has a disadvantage in that the initial cost of conduit construction is expensive. It is noted that underground ducts are prone to being deformed by the burden of earth pressure, which makes it necessary to check the ducts before cable installation, and to repair defective ducts before placing cables in conduits. ",
+    "Location": "T-HDB-OUT.10-2009-1-PDF-E.pdf PDF Seite 301 1.3 Maintenance of underground plastic ducts     ",
+    "rag_answer": "The preferred method of placing cables in conduits is due to the principle advantage that the cable placement operation is separated in time from the actual conduit construction phase. This method also allows for the protection of the cable with the passage of time, repeated access, removal, and delayed installation, making it more attractive despite the initial expensive cost of conduit construction. Furthermore, underground ducts are prone to deformation by earth pressure, which requires checking and repairing defective ducts before placing cables in conduits. The description of inspection methods and repair methods for underground conduits can be found in Recommendation ITU-T L.73. \n\nContexts used: 0, 1, 2"
+  },
+  {
+    "Question": "Which ISO norms are important, when it comes to environmental sustainability and standards in the telecommunication segment?",
+    "Anwser": "s ISO 9000 and ISO 14000",
+    "Location": "T-HDB-OUT.10-2009-1-PDF-E.pdf PDF Seite 310. Kapite: 2 Safety and environmental aspects ",
+    "rag_answer": "Context 2"
+  },
+  {
+    "Question": "The Content-Language entity-header field describes the natural language(s) of the intended audience for the enclosed entity. Note that this might not be equivalent to all the languages used within the entity-body.",
+    "Anwser": "What does a Content-Language entity-header describe?",
+    "Location": "http_protocol.pdf PDF Seite 118. Kapitel: 14.12 Content-Language",
+    "rag_answer": "There is no answer included in the context."
+  },
+  {
+    "Question": "Do i need to include the  WWW-Authenticate response-header field in a 401 response?",
+    "Anwser": "The WWW-Authenticate response-header field MUST be included in 401 (Unauthorized) response messages. The field value consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the Request-URI.",
+    "Location": "http_protocol.pdf PDF Seite 150. Kapitel 14.47 WWW-Authenticate",
+    "rag_answer": "Context 1: The WWW-Authenticate response-header field MUST be included in a 401 (Unauthorized) response message."
+  },
+  {
+    "Question": "In the context of HTTP. For what are Product tokens used for?",
+    "Anwser": "Product tokens are used to allow communicating applications to identify themselves by software name and version. ",
+    "Location": "http_protocol.pdf PDF Seite 28. Kapitel: 3.8 Product Tokens",
+    "rag_answer": "Product tokens in the context of HTTP are used to allow communicating applications to identify themselves by software name and version. They are short and to the point, not to be used for advertising or other non-essential information. Product tokens also allow sub-products to be listed, separated by white space, in order of their significance for identifying the application (source: context 0)."
+  },
+  {
+    "Question": "What is the expected lifetime of optical fibres?",
+    "Anwser": "The expected lifetime of optical fibres is typically more than 30 years.",
+    "Location": "T-REC-G.Sup59-201802-I!!PDF-E.pdf PDF Seite 11. Kapitel 7.4 Attenuation stability    ",
+    "rag_answer": "The expected lifetime of optical fibres is typically more than 30 years, as mentioned in context 0."
+  },
+  {
+    "Question": "What is appendix in the context of optical fibres?",
+    "Anwser": "The purpose of this appendix is to give some general information on the main factors affecting the definition of the reliability objectives for the external faults of optical cables during their lifetime.",
+    "Location": "T-REC-G.Sup59-201802-I!!PDF-E.pdf PDF Seite  24. Kapitel: II.1 Introduction    ",
+    "rag_answer": "There is no information related to the appendix in the context provided."
+  },
+  {
+    "Question": "For what is Hydrogen used for, when it comes to optical fibre deployment?",
+    "Anwser": "Hydrogen is a small molecule that can easily diffuse into the glass structure. Hydrogen can react with glass to create irreversible absorption peaks (type 1) that add to the optical loss or interstitial molecular hydrogen that can be present in the glass adding to the attenuation (type 2) [b-Lemaire]. Both mechanisms are of concern in deployed optical cables, as they can add to the overall attenuation of the optical cable.",
+    "Location": "T-REC-G.Sup59-201802-I!!PDF-E.pdf PDF Seite 10. Kapitel 7.2 Hydrogen",
+    "rag_answer": "The context used to answer the question is at index 0."
+  },
+  {
+    "Question": "What are costeffective optical alignment solution?",
+    "Anwser": "an advanced packaged high-density MCF or RCF array may help achieve a fast and costeffective optical alignment solution. For example, with an MCF-based fibre array unit (FAU), one single optical fibre alignment step would automatically bring all the cores into alignment, which could potentially simplify the alignment process and thus significantly improve the optical fibre alignment cost structure",
+    "Location": "T-TUT-HOME-2022-1-PDF-E.pdf PDF Seite 11 Kpitel Figure 3 \u2013 Optical interface density achieved with regular single-mode fibre, RCF and MCF    ",
+    "rag_answer": "Context index 0 provides relevant information about cost-effective optical alignment solutions, specifically mentioning that an advanced packaged high-density MCF or RCF array may help achieve a fast and cost-effective optical alignment solution."
+  },
+  {
+    "Question": "What are the benefits of RC-MCF?",
+    "Anwser": "The advantages of RC-MCF are as follows. Increased spatial channel density and the potential to provide more than ten spatial channels in a 125 \uf06dm cladding diameter. Simplified MIMO-DSP compared to the conventional few-mode transmission [b-Hayashi1]. Ultra-low attenuation potential. No marker for the management of core numbers is required",
+    "Location": "T-TUT-HOME-2022-1-PDF-E.pdf PDF Seite 19. Kapitel: 6.1.2.2.3 Advantages / disadvantages    ",
+    "rag_answer": "Context 0: \"RC-MCF consists of cores that are packed closely together to encourage optical coupling among them. With a tighter core pitch, one of the obvious benefits is a higher spatial/core density.\"\nContext 0: \"In the random coupling regime, SMD increases in proportion to the square root of the transmission distance, so the RC-MCF is expected to reduce the accumulated modal dispersion to less than that in the FMF.\"\nContext 0: \"Random coupling can result in a lower mode-dependent loss (MDL) / differential modal attenuation (DMA) and lower nonlinearity, which in turn simplifies the calculation complexity in the MIMO-DSP.\""
+  },
+  {
+    "Question": "How can i messure the cladding non-circularity for a SDM cable?",
+    "Anwser": "The existing test method described in clause 6.2 of [b-ITU-T G.650.1] can be used to measure the cladding non-circularity for all types of SDM optical fibres.",
+    "Location": "T-TUT-HOME-2022-1-PDF-E.pdf PDF Seite 28. Kapitel: 7.1.4 Cladding non-circularity    ",
+    "rag_answer": "The cladding non-circularity for a SDM cable can be measured using the existing test method described in clause 6.2 of [b-ITU-T G.650.1]. (context 1)"
+  },
+  {
+    "Question": "Are optical fibres drawn under high stress?",
+    "Anwser": "The drawing of fibre is performed under relativly low stress",
+    "Location": "WP8002.pdf PDF Seite 5 ",
+    "rag_answer": "Context 1: \nThe drawing of fiber is performed under relatively low stress. \nStatic fatigue testing of as-drawn fiber requires high loads to generate failure.\nStatic fatigue testing has traditionally been limited to pristine as-drawn fiber.\n\nTherefore, optical fibers are not drawn under high stress. (Contexts 1)"
+  }
+]

@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+test*
+.venv/
+**/.DS_Store
+**/__pycache__/
+data_old/
